@@ -1,18 +1,31 @@
-## Getting Started
+# Game Movement Simulator
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este es un pequeño proyecto en Java que simula el movimiento de un objeto o personaje dentro de un entorno 2D mediante las teclas `W`, `A`, `S`, `D`. Cada tecla representa una dirección cardinal, y el programa imprime las coordenadas actualizadas conforme el objeto se mueve.
 
-## Folder Structure
+## 📦 Estructura del Proyecto
 
-The workspace contains two folders by default, where:
+game/
+├── src/
+│ ├── App.java
+│ └── movement/
+│ └── Movements.java
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## ▶️ Cómo Ejecutar
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+1. Asegúrate de tener instalado Java (JDK 8 o superior).
+2. Compila el proyecto desde la raíz:
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+```bash
+javac -d bin src/movement/Movements.java src/App.java
 
-## Dependency Management
+## 🎮 Controles
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+    W → Mover al norte
+
+    S → Mover al sur
+
+    A → Mover al oeste
+
+    D → Mover al este
+
+    Q → Salir del programa
