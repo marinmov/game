@@ -13,10 +13,7 @@ game/
 ## ▶️ Cómo Ejecutar
 
 1. Asegúrate de tener instalado Java (JDK 8 o superior).
-2. Compila el proyecto desde la raíz:
-
-```bash
-javac -d bin src/movement/Movements.java src/App.java
+2. Compila el proyecto desde la raíz: javac -d bin src/movement/Movements.java src/App.java | java -cp bin App
 
 ## 🎮 Controles
 
